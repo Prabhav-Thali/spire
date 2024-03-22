@@ -7,6 +7,7 @@ on:
       - checks_requested
 env:
   GO_VERSION: 1.22.1
+  PLATFORMS: linux/amd64,linux/arm64,linux/s390x
 permissions:
   contents: read
 
