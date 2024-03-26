@@ -159,6 +159,9 @@ jobs:
     needs: [cache-deps]
     timeout-minutes: 30
 
+    env:
+      PLATFORMS: linux/amd64,linux/arm64,linux/s390x
+  
     permissions:
       contents: read
 
