@@ -162,6 +162,7 @@ jobs:
     permissions:
       contents: read
 
+    #add s390x
     env:
       PLATFORMS: linux/amd64,linux/arm64,linux/s390x
 
